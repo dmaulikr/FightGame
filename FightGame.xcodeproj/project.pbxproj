@@ -14,6 +14,8 @@
 		36DB83761C867B9400E28068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DB83741C867B9400E28068 /* LaunchScreen.storyboard */; };
 		36DB83811C867B9400E28068 /* FightGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB83801C867B9400E28068 /* FightGameTests.swift */; };
 		36DB838C1C867B9500E28068 /* FightGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB838B1C867B9500E28068 /* FightGameUITests.swift */; };
+		36DB839A1C86878100E28068 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB83991C86878100E28068 /* Game.swift */; };
+		36DB839C1C868EFF00E28068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB839B1C868EFF00E28068 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		36DB83871C867B9500E28068 /* FightGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DB838B1C867B9500E28068 /* FightGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightGameUITests.swift; sourceTree = "<group>"; };
 		36DB838D1C867B9500E28068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DB83991C86878100E28068 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		36DB839B1C868EFF00E28068 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				36DB836B1C867B9400E28068 /* AppDelegate.swift */,
 				36DB836D1C867B9400E28068 /* ViewController.swift */,
 				36DB836F1C867B9400E28068 /* Main.storyboard */,
+				36DB83991C86878100E28068 /* Game.swift */,
+				36DB839B1C868EFF00E28068 /* Character.swift */,
 				36DB83721C867B9400E28068 /* Assets.xcassets */,
-				36DB83741C867B9400E28068 /* LaunchScreen.storyboard */,
 				36DB83771C867B9400E28068 /* Info.plist */,
+				36DB83741C867B9400E28068 /* LaunchScreen.storyboard */,
 			);
 			path = FightGame;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				36DB836E1C867B9400E28068 /* ViewController.swift in Sources */,
+				36DB839A1C86878100E28068 /* Game.swift in Sources */,
 				36DB836C1C867B9400E28068 /* AppDelegate.swift in Sources */,
+				36DB839C1C868EFF00E28068 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
